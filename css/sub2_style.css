@@ -1,0 +1,235 @@
+/* webfont */
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+em,
+img,
+small,
+strong,
+b,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+summary,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    font-size: 16px;
+    /* rem의 기준크기!!!*/
+    -webkit-text-size-adjust: none;
+    /*Chrome, Safari, newer versions of Opera*/
+
+    -moz-text-size-adjust: none;
+    /*Firefox*/
+
+    -ms-text-size-adjust: none;
+    /*Ie*/
+
+    -o-text-size-adjust: none;
+    /*old versions of Opera*/
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #333;
+}
+
+#wrap {
+    min-width: 1400px;
+}
+
+#header {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.inner_header {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.gnb {
+    display: flex;
+    margin: 0 40px;
+
+}
+
+.gnb li a {
+    display: block;
+    font-weight: bold;
+    margin: 26px;
+}
+
+.header_link {
+    display: flex;
+}
+
+.header_link li {
+    margin: 20px;
+
+}
+#banner{
+    background: url(../image/sub3/Croatia.png)no-repeat center;
+    height: 360px;
+    
+}
+#box{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+#box h2{
+    text-align: center;
+    padding: 141px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.Search_bar{
+    background-color: #fff;
+    width: 425px;
+    border: 1px solid #F3F1F1;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 80px;
+    height: 38px;
+    position: absolute;
+    right: -60px;
+    bottom: -50px;
+
+}
+.Search_bar p{
+    font-size: 16px;
+    color: #333;
+}
+.Search_bar_img{
+    position: absolute;
+    right: -40px;
+    bottom: -45px;
+}
+.Search_bar_img img{
+    width: 100%;
+}
+#box2{
+    width: 1320px;
+    margin: 0 auto;
+}
+#box2 strong{
+    font-size: 14px;
+    color: #333;
+    line-height: 30px;
+}
+#box2 span{
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+.place_list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.place_text{
+    margin-left: 20px;
+}
+.place_text p{
+    font-size: 18px;
+    color: #666666;
+    line-height: 30px;
+}
+.button_wrap{
+    display: flex;
+    justify-content: center;
+}
+.button_wrap li{
+   padding: 10px;
+    margin: 0 10px 20px;
+    cursor: pointer;
+}
+.link2{
+    display: none;
+    }
+.link2 li{
+    margin: 20px;
+}
+#footer {
+    border-top: 1px solid #ddd;
+    padding: 37px 0 60px;
+}
+
+.inner_footer {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.footer_link {
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.footer_link li {
+    margin-right: 16px;
+    font-size: 20px;
+}

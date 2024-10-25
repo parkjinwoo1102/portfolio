@@ -1,0 +1,291 @@
+/* webfont */
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+em,
+img,
+small,
+strong,
+b,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+summary,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    font-size: 16px;
+    /* rem의 기준크기!!!*/
+    -webkit-text-size-adjust: none;
+    /*Chrome, Safari, newer versions of Opera*/
+
+    -moz-text-size-adjust: none;
+    /*Firefox*/
+
+    -ms-text-size-adjust: none;
+    /*Ie*/
+
+    -o-text-size-adjust: none;
+    /*old versions of Opera*/
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #333;
+}
+
+#wrap {
+    min-width: 1400px;
+    overflow: hidden;
+}
+
+#top {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.inner_top {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.gnb {
+    display: flex;
+    margin: 0 40px;
+
+}
+
+.gnb li a {
+    display: block;
+    font-weight: bold;
+    margin: 26px;
+}
+
+.top_link {
+    display: flex;
+}
+
+.top_link li {
+    margin: 20px;
+
+}
+
+#header {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#header h1 {
+    font-size: 36px;
+    line-height: 150px;
+    margin: 10px;
+}
+
+#header p {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#banner {
+    background: url(../image/sub4/happy_time.png)no-repeat center;
+    height: 441px;
+
+}
+#box1 {
+    width: 1320px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.left_box {
+    width: 40%; 
+    padding-top: 126px;
+}
+
+.right_box {
+     width: 60%;
+    
+}
+
+
+
+.box1_text {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.box1_text strong {
+    font-size: 22px;
+    display: block;
+    width: 20%;
+    
+}
+
+.box1_text p {
+    font-size: 18px;
+
+}
+
+.box1_text span {
+    display: block;
+    line-height: 3.5em;
+}
+
+#box2 {
+    width: 1320px;
+    margin: 0 auto 60px;
+}
+
+#box2 h2 {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.box2_img {
+    padding: 60px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.link li strong {
+    margin: 58px;
+    font-size: 26px;
+    padding-bottom: 100px;
+}
+.link li p{
+    font-size: 21px;
+    color: #05ADE9;
+    margin-left: 60px;
+    line-height: 50px;
+}
+.box3_wrap{
+    display: flex;
+}
+#box3{
+    width: 1320px;
+    margin: 0 auto 30px;
+    
+}
+#box3 h2{
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+.inner_box3{
+width: 10%;
+text-align: center;
+    
+
+}
+.box3_right_box{
+    padding-top: 12px;
+    width: 90%;
+}
+.img_box3 img{
+    padding-left: 30px;
+} 
+.box3_text{
+    font-size: 16px;
+    display: flex;
+    font-weight: bold;
+}
+.box3_text p{
+    margin-left: 10px;
+}
+.box3_text strong{
+    color: #05ADE9;
+    font-weight: bold;
+    display: block;
+}
+#footer {
+    border-top: 1px solid #ddd;
+    padding: 37px 0 60px;
+}
+
+.inner_footer {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.footer_link {
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.footer_link li {
+    margin-right: 16px;
+    font-size: 20px;
+}
