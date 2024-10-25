@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="30" viewBox="0 0 32 30">
+  <defs>
+    <clipPath id="clip-path">
+      <ellipse id="타원_10" data-name="타원 10" cx="16" cy="15" rx="16" ry="15" transform="translate(496 6824)" stroke="#000" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_14" data-name="마스크 그룹 14" transform="translate(-496 -6824)" clip-path="url(#clip-path)">
+    <path id="icon_sns_facebook" d="M17.521,6.62V1.328H12.863c-3.7,0-6.692,3.006-6.692,7.831v3.727H1.436v5.527H6.171V31.328h5.781v-13h4.329l.827-5.487H11.952v-3.9c0-1.277,1.035-2.318,3.548-2.318h2.021Z" transform="translate(502.378 6822.672)" fill-rule="evenodd"/>
+  </g>
+</svg>
