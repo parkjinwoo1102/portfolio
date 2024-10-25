@@ -312,11 +312,13 @@ a.active {
     height: 707px;
     /* width: 1685px; */
     margin: 0 auto;
+	 overflow: hidden;
 }
 
 .table-cell {
     display: table-cell;
     vertical-align: middle;
+	
 }
 
 .disply-table {
